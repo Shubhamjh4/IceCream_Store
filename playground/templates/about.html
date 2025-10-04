@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+
+{% block title %}About Us{% endblock title %}
+
+{% block body %}
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/img/2.jpg" class="carousel-image d-block w-100" alt="..." style="height: 60vh; object-fit: cover; object-position: center;">
+    </div>
+  </div>
+</div>
+
+<div class="container my-4">
+  <div class="text-center mb-5">
+    <img src="/static/img/6.webp" class="img-fluid rounded-circle mb-3" alt="Shubham Ice Cream Logo" style="max-width: 200px;">
+    <h1 class="display-4">About Shubham Ice Cream</h1>
+    <p class="lead text-muted">Crafting happiness, one scoop at a time since 1998.</p>
+  </div>
+
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <h2>Our Story</h2>
+      <p>At Shubham Ice Cream, our mission is to create more than just delicious frozen treats; we aim to create moments of joy and connection. Our journey began with a simple family passion for rich, creamy, and authentic flavors. We use only the finest locally-sourced ingredients, from farm-fresh milk to hand-picked fruits, to ensure every spoonful is a taste of pure delight.</p>
+      <p>We believe in the magic of a perfect scoop to brighten any day, and our dedication to quality and community is at the heart of everything we churn.</p>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="/static/img/11.webp" class="img-fluid rounded shadow" alt="Shubham Ice Cream Flavors">
+    </div>
+  </div>
+
+  <div class="py-5 bg-light rounded text-center mb-5">
+    <h2 class="mb-4">Our Journey in Numbers</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <h3 class="display-5 fw-bold">50+</h3>
+        <p class="text-muted">Unique Flavors Created</p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="display-5 fw-bold">500,000+</h3>
+        <p class="text-muted">Happy Customers Served</p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="display-5 fw-bold">25+</h3>
+        <p class="text-muted">Years of Experience</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center mb-5">
+    <h2>Sweet Words From Our Fans</h2>
+    <p class="lead text-muted">We love our customers, and they love us back!</p>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="/static/img/5.webp" class="img-fluid rounded-start h-100 w-100" alt="Happy customer eating ice cream" style="object-fit: cover;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">"Absolutely Magical!"</h5>
+              <p class="card-text">"The Belgian Chocolate flavor is the best I've ever had. So rich and creamy! This is my go-to spot for a sweet escape. Highly recommended!"</p>
+              <footer class="blockquote-footer mt-2">Priya S.</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-6 mb-4">
+      <div class="card h-100 border-0 shadow-sm">
+        <div class="row g-0">
+          <div class="col-md-4">
+             <img src="/static/img/2.jpg" class="img-fluid rounded-start h-100" alt="Family enjoying ice cream" style="object-fit: cover;">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">"A Treat for the Whole Family"</h5>
+              <p class="card-text">"We brought our kids here and they were in heaven. The variety of flavors is amazing, and the staff is so friendly. The perfect family outing."</p>
+              <footer class="blockquote-footer mt-2">The Sharma Family</footer>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{% endblock body %}
+
+
